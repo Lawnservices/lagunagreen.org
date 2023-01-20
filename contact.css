@@ -4,6 +4,33 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    background-color: #154;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fff;
+    color: #154;
+    transition: all ease-in-out 1s;
+}
+
 .nombre {
     text-align: center;
 }
@@ -51,6 +78,9 @@ table {
 
 @media print {
     #print {
+        display: none;
+    }
+    .navbar {
         display: none;
     }
 }

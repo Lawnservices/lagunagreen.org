@@ -3,32 +3,6 @@
                  margin: 0;
              }
              
-             .nav {
-                 overflow: hidden;
-                 background-color: #04aa6b;
-                 position: sticky;
-                 top: 0;
-             }
-             
-             .nav a {
-                 margin-left: 40px;
-                 float: left;
-                 color: #fff;
-                 font-size: 18px;
-                 text-decoration: none;
-                 padding: 16px 16px;
-                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-             }
-             
-             .nav a:hover {
-                 background-color: antiquewhite;
-                 color: #154256;
-             }
-             
-             .nav a.active {
-                 background-color: #154256;
-                 color: white;
-             }
              
              #orario {
                  margin-top: 120px;

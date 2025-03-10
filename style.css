@@ -126,4 +126,14 @@ img {
         margin-top: auto;
         color:#000;
     }
+     
+}
+@media (min-width:760px) and (max-width:1060px){
+.lista ul{
+padding: 12px 12px;
+color: #154256;
+margin-top: 14px;
+
+
+}
 }

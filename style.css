@@ -80,7 +80,24 @@ img {
     margin-top: 120px;
     border-radius:0.4rem;
 }
-
+.listas{
+max-width: 1400px;
+margin: 24px auto;
+border-bottom: 2px solid green;
+}
+.listas h2{
+color: #061125;
+}
+.listas .lista{
+margin: 0;
+list-style-type: none;
+display: block;
+text-align: center;
+}
+.listas .lista a{
+padding: 16px;
+font-size: 18px;
+} 
 .pie-pagina {
     margin-top: 160px;
     width: 100%;

@@ -1,7 +1,7 @@
 const saluda = document.getElementById('header');
 window.onload = () =>{ 
-const ano = new Date().getFullYear();
-document.getElementById('time').textContent = ano;
+const ana = new Date().getFullYear();
+document.getElementById('time').textContent = ana;
 
 const nuevo = document.createElement('p');
 nuevo.textContent = 'THE BEST PRICES IN THE AREA.';
@@ -15,5 +15,18 @@ setTimeout(() => {
 
 
 }, 4000);
+
+ 
+let nuevos = "Primera visita";
+localStorage.setItem('visita', nuevos);
+
+ 
+let cliente = localStorage.getItem('visita');
+
+if(cliente){
+    
+    document.getElementById('mensaje').textContent = cliente;
+}
+ 
 
 };
